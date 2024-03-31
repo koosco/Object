@@ -19,7 +19,7 @@ public class Movie {
         return fee;
     }
 
-    public Money caculateMovieFee(Screening screening) {
+    public Money calculateMovieFee(Screening screening) {
         return fee.minus(discountPolicy.calculateDiscountAmount(screening));
     }
 }
