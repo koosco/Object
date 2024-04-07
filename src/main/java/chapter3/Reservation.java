@@ -1,6 +1,5 @@
 package chapter3;
 
-import chapter2.Customer;
 import chapter2.Money;
 
 public class Reservation {
